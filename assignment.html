@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script src="https://kit.fontawesome.com/83c1c4b453.js" crossorigin="anonymous"></script>
+    
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+  
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"></script>
+  
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+
+  <link rel="stylesheet" href="resources/css/styles.css">
+  <link rel="stylesheet" href="resources/css/queries.css">
+
+  <link rel="icon" type="image/x-icon" href="/resources/img/android-chrome-512x512.png">
+
+    
+  <title>W3.CSS Template</title>
+</head>
+<body>
+  <header id="home">
+    <div class="topnav fixed-top" id="myTopnav">
+      <a class="navigation" href="#home">HOME</a>
+      <a class="navigation" href="#band">BAND</a>
+      <a class="navigation" href="#tour">TOUR</a>
+      <a class="navigation" href="#contact">CONTACT</a>
+      <a class="navigation01" href="#contact">MERCH</a>
+      <div class="dropdown">
+        <button class="dropbtn">MORE
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a class="navigation" href="#">Merchandise</a>
+          <a class="navigation" href="#">Extras</a>
+          <a class="navigation" href="#">Media</a>
+        </div>
+      </div> 
+      
+      <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+      <a><i class="fa fa-search"></i></a>
+  </div>
+  
+  <script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+  </script>
+    <div id="demo" class="carousel slide" data-bs-ride="carousel">
+      <!-- The slideshow/carousel -->
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="resources/img/la.jpg" alt="Los Angeles" class="d-block" style="width:100%">
+          <div class="carousel-caption">
+            <p class="nation">Los Angeles</p>
+            <p><label>We had the best time playing at Venice Beach!</label></p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="resources/img/ny.jpg" alt="Chicago" class="d-block" style="width:100%">
+          <div class="carousel-caption">
+            <p class="nation">New York</p>
+            <p><label>The atmosphere in New York is lorem ipsum.</label></p>
+          </div> 
+        </div>
+        <div class="carousel-item">
+          <img src="resources/img/chicago.jpg" alt="New York" class="d-block" style="width:100%">
+          <div class="carousel-caption">
+            <p class="nation">Chicago</p>
+            <p><label>Thank you, Chicago - A night we won't forget.</label></p>
+          </div>  
+        </div>
+      </div>
+    </div>
+  </header>
+  <section class="band-section" id="band">
+      <div class="row">
+          <h2>THE BAND</h2>
+          <p class="p-short">
+              <i>We love music</i>
+          </p>
+          <p class="p-long">
+              We have created a fictional band website. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          </p>
+          <div class="container">
+              <div class="row">
+                <div class="col-sm-4">
+                  <p class="picture-title">
+                      Name
+                  </p>
+                  <img src="resources/img/bandmember.jpg" alt="Random Name"  width="60%">
+                </div>
+                <div class="col-sm-4">
+                  <p class="picture-title">
+                      Name
+                  </p>
+                  <img src="resources/img/bandmember.jpg" alt="Random Name"  width="60%">
+                </div>
+                <div class="col-sm-4">
+                  <p class="picture-title">
+                      Name
+                  </p>
+                      <img src="resources/img/bandmember.jpg" alt="Random Name"  width="60%">
+                </div>
+              </div>
+            </div>
+      </div> 
+  </section>
+  <section class="tour-section" id="tour">
+    <div class="text">
+      <h2 class="p-short01">TOUR DATES</h2>
+      <p class="p-short">
+          <i>Remember to book your tickets!</i>
+      </p>
+    </div>
+    <div class="container mt-3">
+      <ul class="list-group">
+        <li class="list-group-item" style="width: 790px;" >September&emsp;<mark>Sold out</mark></li>
+        <li class="list-group-item" style="width: 790px;">October&emsp;<mark>Sold out</mark></li>
+        <li class="list-group-item" style="width: 790px;">November<span class="badge bg-dark rounded-pill" >3</span></li>
+      </ul>
+    </div>
+    <div class="container01">
+      <div class="row">
+        <div class="col-sm-4">
+          <div class="card">
+            <img class="card-img-top" src="resources/img/newyork.jpg" alt="Card image" style="width:100%">
+            <div class="card-body">
+              <h4 class="card-title">New York</h4>
+              <p class="card-date">Fri 27 Nov 2016</p>
+              <p class="card-text">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+              <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#myModal">
+                Buy Tickets
+              </button>
+              <div class="modal" id="myModal">
+                <div class="modal-dialog modal-xl">
+                  <div class="modal-content">
+              
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                      <h2 class="ticket"><i class="fa fa-suitcase"></i>&ensp;Tickets</h2>
+                      <button type="button" data-bs-dismiss="modal"><i class="fa fa-remove"></i>
+                      </button>
+                    </div>
+              
+                    <!-- Modal body -->
+                    <form action="/action_page.php">
+                      <p><i class="fa fa-shopping-cart"></i> Tickets, $15 per person</p>
+                      <input class="form-control" type="text" placeholder="How many?">
+                      <p><i class="fa fa-user"></i> Send To</p>
+                      <input class="form-control" type="text" placeholder="Enter email">
+                      <button class="form-submit" >PAY <i class="fa fa-check"></i></button>
+                      <button type="button" class="btn btn-danger" data-bs-dismiss="modal">
+                        Close <i class="fa fa-remove"></i>
+                      </button>
+                      <p class="link">Need &nbsp;<a class="link" href="#">help?</a></p>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-sm-4">
+          <div class="card">
+            <img class="card-img-top" src="resources/img/paris.jpg" alt="Card image" style="width:100%">
+            <div class="card-body">
+              <h4 class="card-title">Paris</h4>
+              <p class="card-date">Sat 28 Nov 2016</p>
+              <p class="card-text">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+              <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#myModal">
+                Buy Tickets
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-4">
+          <div class="card">
+            <img class="card-img-top" src="resources/img/sanfran.jpg" alt="Card image" style="width:100%">
+            <div class="card-body">
+              <h4 class="card-title">San Francisco</h4>
+              <p class="card-date">Sun 29 Nov 2016</p>
+              <p class="card-text">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+              <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#myModal">
+                Buy Tickets
+              </button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="contact-section" id="contact">
+    <div class="text">
+      <h2>CONTACT</h2>
+      <p class="p-short">
+        <i>Fan? Drop a note!</i>
+      </p>
+    </div>
+    <ul class="information">
+      <li><i class="fas fa-map-marker-alt small-icon"></i>Chicago, US</li>
+      <li><i class="fas fa-phone-alt small-icon"></i>Phone: +00 151515</li>
+      <li><i class="fas fa-envelope small-icon"></i>Email: mail@mail.com</li> 
+    </ul> 
+    <div class="contact-form">
+      <form action="/action_page.php" target="_blank">
+        <div class="row-padding" >
+          <div class="form-fill">
+            <input class="fill01" type="text" placeholder="Name" required name="Name">
+            <input class="fill02" type="text" placeholder="Email" required name="Email">
+          </div>
+        </div>
+        <input class="fill03" type="text" placeholder="Message" required name="Message">
+        <div class="send">
+          <button class="send-submit" type="submit">SEND</button>
+        </div>
+        
+      </form>
+    </div>
+  </section>
+  <section class="map">
+  </section>
+  
+  <footer>
+    <ul class="social-icon">
+      <li><i class="fab fa-facebook-square"></i></li>
+      <li><i class="fab fa-instagram"></i></li>
+      <li><i class="fab fa-snapchat"></i></li>
+      <li><i class="fab fa-pinterest-p"></i></li>
+      <li><i class="fab fa-twitter"></i></li>
+      <li><i class="fab fa-linkedin-in"></i></li>
+    </ul>
+    <p class="link01">Powered by <a class="link01" href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+  </footer>
+</body>
+</html>
+
+

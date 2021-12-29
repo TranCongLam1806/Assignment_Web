@@ -1,0 +1,354 @@
+/* Big tablet to 1200px; */
+@media only screen  and (max-width:1200px){
+    .p-long{
+        padding: 0 175px;
+        line-height: 160%;
+    }
+    .container {
+        padding: 0 200px;
+    }
+    .container01 {
+        padding: 40px 185px; 
+        margin-left: 2px;
+    }
+    .modal-xl {
+        margin-left: 180px;
+    }
+    .modal-content{
+        width: 800px;
+    }
+    .form-submit{
+        width: 768px;
+    }
+    .modal-header button{
+        margin-right: -287.5px;
+    }
+    .modal-header{
+        width: 799px;
+    }
+    .information{
+        margin-left: 150px;
+    }
+    .contact-form {
+        padding-right: 180px;
+    }
+}
+
+@media only screen and (max-width:1160px){
+    .contact-form {
+        padding-right: 150px;
+    }
+    .container01 {
+        padding: 40px 155px; 
+        margin-left: 0px;
+    }
+    .mt-3 {
+        margin-left: -45px;
+    }
+}
+
+@media only screen and (max-width:1100px){
+    .modal-xl {
+        margin-left: 100px;
+    }
+    .container01 {
+        padding: 40px 128px; 
+        margin-left: -19px;
+    }
+    .mt-3 {
+        margin-left: -40px;
+    }
+    .p-long{
+        padding: 0 145px;
+    }
+    .container {
+        padding: 0 150px;
+    }
+    .text {
+        margin-left: -100px;
+        margin-right: -100px;
+    }
+}
+/* Small tablet to big tablet from 768x to 1023px */
+@media only screen and (max-width:1023px){
+    .container01 {
+        padding: 40px 95px; 
+        margin-left: -5px;
+    }
+    .mt-3 {
+        margin-left: -30px;
+    }
+    
+    .p-long{
+        padding: 0 110px;
+    }
+    .container {
+        padding: 0 120px;
+    }
+    .text {
+        padding-left: -50px;
+    }
+    .information{
+        margin-left: 70px;
+    }
+    .contact-form {
+        padding-right: 90px;
+    }
+    
+}
+@media only screen and (max-width:990px){
+    .modal-xl {
+        margin-left: 30px;
+        margin-right: 70px;
+    }
+    .modal-content {
+        width: 630px;
+    }
+    .form-submit{
+        width: 600px;
+    }
+    .modal-header button{
+        margin-right: -201px;
+    }
+    .modal-header{
+        width: 628px;
+    }
+}
+@media only screen and (max-width:965px){
+    .container01 {
+        padding: 40px 70px; 
+        margin-left: -5px;
+    }
+    .mt-3 {
+        margin-left: -55px;
+    }
+}
+
+@media only screen and (max-width:930px){
+    .p-long{
+        padding: 0 70px;
+    }
+    footer {
+        padding: 70px 0px;
+    }
+    .information{
+        margin-left: 50px;
+    }
+    
+}
+
+@media only screen and (max-width:890px){
+    .p-short{
+        padding: 0 10px;
+    }
+    .social-icon i{
+        padding: 0 0px;
+    }
+    .information{
+        margin-left: 50px;
+    }
+    .container {
+        padding: 0 80px;
+    }
+    .container01 {
+        padding: 40px 45px; 
+        margin-left: -5px;
+    }
+    .mt-3 {
+        margin-left: -40px;
+    }
+    .p-long{
+        padding: 0 10px;
+    }
+
+}
+@media only screen and (max-width:850px){
+    .container01 {
+        padding: 40px 25px; 
+        margin-left: -20px;
+    }
+    .mt-3 {
+        margin-left: -70px;
+    }
+}
+/* Small phones to small tablets */
+@media only screen and (max-width: 767px){
+    .information{
+        margin-left: -15px;
+    }
+    .container {
+        padding: 0 80px;
+    }
+    .container01 {
+        padding: 40px 45px; 
+        margin-left: -5px;
+    }
+    .mt-3 {
+        margin-left: -40px;
+    }
+    .contact-form {
+        padding-right: 30px;
+    }
+    .fill01 {
+        width: 170px;
+    }
+    .fill02 {
+        width: 170px;
+    }
+    .fill03 {
+        width: 351px;
+    }
+    .container01 {
+        padding: 40px 25px; 
+        margin-left: -20px;
+    }
+    .mt-3 {
+        margin-left: -75px;
+    }
+
+}
+@media only screen and (max-width: 730px){
+    .card{
+        width: 210px;
+        height: 390px;
+    }
+    .container01 {
+        padding: 40px 25px; 
+        margin-left: -20px;
+    }
+    .mt-3 {
+        margin-left: -70px;
+    }
+    .contact-form {
+        padding-right: 30px;
+    }
+    .fill01 {
+        width: 160px;
+        margin-right: 6px;
+    }
+    .fill02 {
+        width: 160px;
+        margin-bottom: 10px;
+    }
+    .fill03 {
+        width: 330px;
+        height: 40px;
+    }
+    .send .send-submit {
+        margin-top: 30px;
+        float: right;
+        font-size: 15px;
+        color: white;
+        background-color: black;
+        width: 71px;
+        height: 38px;
+        border: none;
+        transition: all 0.3s;
+    }
+}
+
+/* Small phones from 0 to 480px; */
+@media screen and (max-width: 600px) {
+    .topnav a:not(:first-child) {
+      display: none;
+      position: relative;
+    }
+    .topnav a.icon {
+      float: right;
+      display: block;
+      position: relative;
+      text-decoration: none;
+      color: white;
+      text-align: center;
+      padding: 13px 16px;
+      font-size: 15px;
+      font-family: 'Lato', sans-serif;
+    }
+    .dropdown {
+        display: none;
+    }
+    .icon:hover {
+        background-color: #ddd;
+        color: black;
+    }
+    .p-short{
+       padding: 0 0px;
+    }
+    .container {
+        padding: 0 10px;
+        display: block;
+        margin-left: -20px;
+        margin-right: 20px;
+    }
+    .col-sm-4{
+        width: 250%;
+    }
+    footer {
+        padding: 70px 100px;
+    }
+    .container01 {
+        padding: 0px 0px;
+    }
+    .card {
+        width: 520px;
+        height: 580px;
+        margin-top: 50px;
+        margin-left: 22px;
+    }
+    .modal-xl {
+        margin-left: 20px;
+    }
+    .modal-content{
+        width: 500px;
+    }
+    .form-submit{
+        width: 468px;
+    }
+    .modal-header button{
+        margin-right: -137px;
+    }
+    .modal-header{
+        width: 498px;
+    }
+    .contact-form{
+        float: none;
+        margin-top: 0;
+    }
+    .form-fill{
+        margin-left: 12px;
+    }
+    .fill01 {
+        width: 530px;
+        height: 40px;
+        display: block;
+        margin-bottom: 0.35px;
+    }
+    .fill02 {
+        width: 530px;
+        height: 40px;
+        margin-bottom: 10px;
+    }
+    .fill03 {
+        width: 530px;
+        height: 40px;
+        margin-left: 12px;
+    }
+    .send .send-submit{
+        margin-right: -75px;
+    }
+
+}
+  
+@media screen and (max-width: 600px) {
+    .topnav.responsive .icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .topnav.responsive a{
+      float: none;
+      display: block;
+      text-align: left;
+      position: relative;
+    }
+}

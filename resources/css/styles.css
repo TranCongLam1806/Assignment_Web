@@ -1,0 +1,470 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Lato', sans-serif;
+    color: #5a5a5a;
+    background-color: white;
+    text-rendering: optimizeLegibility;
+}
+body{
+    overflow-x: hidden;
+}
+/*------------------------------------*/
+/*---------------HEADER---------------*/
+/*------------------------------------*/
+.topnav {
+    overflow: hidden;
+    background-color: black;
+    position: fixed;
+    height: 45px;
+}
+
+.navigation{
+    float: left;
+    display: block;
+    text-decoration: none;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 13px 16px;
+    font-size: 15px;
+    font-family: 'Lato', sans-serif;
+}
+.topnav .navigation01{
+    display: none;
+}
+.topnav .icon {
+    display: none;
+}
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+.dropdown .dropbtn {
+    font-size: 16px;    
+    border: none;
+    outline: none;
+    color: white;
+    padding: 10.8px 16px;
+    background-color: inherit;
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+}
+
+.dropdown-content {
+    display: none;
+    position: fixed;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.topnav .navigation:hover, .dropdown:hover .dropbtn {
+    background-color: #ddd;
+    color: black;
+    text-decoration: none;
+}
+.dropdown-content a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    margin-top: -1px;
+}
+.fa-caret-down{
+    margin-left: 5px;
+}
+.fa-search {
+    font-size: 15px;
+    color: white;
+    list-style: none;
+    float: right;
+    padding: 17px 23px;
+    width: 61px;
+    height: 45px;
+}
+.fa-search:hover {
+   background-color: #fd3d3d;
+}
+
+/*--------------CAROUSEL------------------*/
+.slide {
+    margin-top: 45px;
+}
+.carousel-caption {
+    font-size: 14px;
+    margin-bottom: 4px;
+}
+.carousel-caption .nation{
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+.carousel-caption label{
+    font-size: 15px;
+    font-family: 'Lato', sans-serif;
+}
+/*-----------------------------------------*/
+/*---------------BAND SECTION-------------*/
+/*-----------------------------------------*/
+.band-section {
+    padding-top: 80px;
+}
+h2{
+    letter-spacing: 2px;
+    word-spacing: 7px;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 140%;
+    font-weight: 450;
+    color: black;
+    font-size: 28px;
+}
+
+.p-short {
+    font-size: 14px;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    width: 95%;
+    margin-left: 2.5%;
+    line-height: 140%;
+    padding: 0 400px;
+    color: rgb(133, 131, 131);
+    font-family: 'Lato', sans-serif;
+}
+.p-long {
+    font-size: 14px;
+    text-align: justify;
+    width: 95%;
+    margin-left: 2.5%;
+    line-height: 150%;
+    padding: 0 370px;
+    color:black;
+    font-family: 'Lato', sans-serif;
+}
+.container {
+    margin-top: 50px;
+    text-align: center;
+    padding: 0 380px;
+}
+.picture-title {
+    color: black;
+    font-size: 16px;
+}
+/*-----------------------------------------*/
+/*---------------TOUR SECTION-------------*/
+/*-----------------------------------------*/
+.tour-section {
+    background-color: black;
+    margin-top: 100px;
+    padding-top: 25px;
+    padding-bottom: 80px;
+}
+.text {
+    margin-bottom: 50px;
+}
+.p-short01 {
+    color: white;
+}
+.list-group-item {
+    text-align: left;
+    color: rgb(141, 141, 141);
+    height: 40px;  
+}
+.list-group .list-group-item{
+    width: 100px;
+}
+.list-group li {
+    width: 500px;
+}
+mark {
+    background-color: red;
+    color: white;
+}
+.mt-3 {
+    margin-left: -12px;
+    margin-top: 100px;
+}
+.list-group li {
+    font-size: 15px;
+    padding: 8px 15px;
+    font-family: 'Lato', sans-serif;
+}
+.rounded-pill{
+    margin-right: 20px;
+}
+/*---------------CARD----------------*/
+.container01 {
+    padding: 40px 360px;
+    margin-left: 8px; 
+}
+.card {
+    width: 250px;
+    height: 390px;
+}
+.card-body {
+    font-size: 15px;
+    font-family: 'Lato', sans-serif;
+}
+.card-title,
+.card-text{
+    color:black;
+}
+.card-body .card-title{
+    font-size: 15px;
+    font-weight: 620;
+}
+.card-date {
+    color: rgb(158, 158, 158);
+}
+/*---------------BUTTON---------------*/
+.btn-dark {
+    font-size: 14px;
+    transition: all 0.3s;
+    border: none;
+    border-radius: 0px;
+    width: 95px;
+    height: 37px;
+    background-color: black;
+}
+.btn-dark:hover,
+.btn-dark:active {
+   background-color: rgb(190, 186, 186);
+   color: black;
+   border: none;
+}
+/*---------------MODALS---------------*/
+/*------------------------------------*/
+.modal-xl {
+    width: 890px;
+    margin-top: 80px;
+}
+.modal-header{
+    background-color:  rgb(11, 158, 158);
+    
+}
+.modal-header .ticket{
+    color: white;
+    text-align: center;
+    margin-left: 29px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    font-size: 32px;
+}
+.modal-header button{
+    width: 48px;
+    height: 55px;
+    margin-top: -73.2px;
+    float: right;
+    margin-right: -332px;
+    font-size: 12px;
+    color: white;
+    background-color: rgb(11, 158, 158);
+    border: none;
+    font-size: 16px;
+    transition: all 0.3s;
+}
+.modal-header button:hover,
+.modal-header button:active {
+   background-color: rgb(190, 186, 186);
+   color: black;
+}
+
+/*---------------MODALS FORM---------------*/
+.modal form {
+    padding: 0 15px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+.fa-shopping-cart{
+    margin-top: 10px;
+}
+.fa-user{
+    margin-top: 15px;
+}
+.form-control{
+    font-size: 16px;
+    margin: 5px 0;
+    border-radius: -50px;
+}
+.form-control:focus,
+.form-control:active {
+   border-color: black;
+   box-shadow: none;
+}
+.form-submit{
+    font-size: 16px;
+    background-color: rgb(11, 158, 158);
+    color: white;
+    text-align: center;
+    width: 858px;
+    margin-top: 15px;
+    height: 55px;
+    display: block;
+    margin-bottom: 13px;
+    border: none;
+    transition: all 0.3s;
+    font-family: 'Lato', sans-serif;
+}
+.form-submit:hover,
+.form-submit:active {
+   background-color: rgb(190, 186, 186);
+   color: black;
+}
+.btn-danger{
+    margin-top: 20px;
+    width: 78px;
+    height: 38px;
+    font-size: 16px;
+    border: none;
+    transition: all 0.3s;
+    border-radius: none;
+}
+.btn-danger:hover,
+.btn-danger:active {
+   background-color: rgb(190, 186, 186);
+   color: black;
+}
+.link{
+    display: inline;
+    float: right;
+    margin-top: 20px;
+    
+}
+.link a{
+    margin-top: 0px;
+    color: 	rgb(0, 191, 255);
+}
+/*---------------------------------------*/
+/*------------CONTACT SECTION------------*/
+/*---------------------------------------*/
+
+/*-------------INFORMATION--------------*/
+.contact-section{
+    padding-top: 50px;
+    padding-bottom: 180px;
+}
+.information {
+    list-style: none;
+    color: black;
+    line-height: 200%;
+    margin-top: 50px;
+    word-spacing: 2px;
+    font-size: 95%;
+    font-size: 16px;
+    margin-left: 350px;
+    font-family: 'Lato', sans-serif;
+}
+.information .small-icon {
+    color: black;
+    font-size: 130%;
+    transition: all 0.5s;
+    margin-right: 15px;
+}
+.information .fa-map-marker-alt {
+    position: relative;
+    margin-right: 19.5px;
+}
+.information .small-icon:hover,
+.information .small-icon:active {
+    transform: scale(1.3);
+}
+/*-------------CONTACT FORM--------------*/
+.contact-form {
+    float: right;
+    margin-top: -110px;
+    padding-right: 355px;
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+}
+.fill01 {
+    width: 195px;
+    height: 40px;
+    margin-right: 6px;
+    margin-bottom: 10px;
+}
+.fill02 {
+    width: 195px;
+    height: 40px;
+    margin-bottom: 10px;
+}
+.fill03 {
+    width: 401px;
+    height: 40px;
+}
+.send .send-submit {
+    margin-top: 30px;
+    float: right;
+    font-size: 15px;
+    color: white;
+    background-color: black;
+    width: 71px;
+    height: 38px;
+    border: none;
+    transition: all 0.3s;
+}
+.send .send-submit:hover,
+.send .send-submit:active {
+    background-color: rgb(190, 186, 186);
+    color: black;
+}
+/*---------------------------------------*/
+/*---------------IMAGE------------------*/
+/*---------------------------------------*/
+.map{
+    background-image: url(../img/map.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    background-attachment: fixed;
+    margin-right: -50px;
+}
+.map { filter: grayscale(50%); }
+/*---------------------------------------*/
+/*---------------FOOTER------------------*/
+/*---------------------------------------*/
+footer {
+    padding: 70px 350px;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+}
+.social-icon {
+    list-style: none;
+    color: gray;
+    margin-right: 30px;
+}
+.social-icon li {
+    display: inline-block;
+    font-size: 160%;
+    letter-spacing: 2px; 
+}
+.link01 {
+    color: gray;
+    font-size: 15px;
+}
+.link01 a {
+    color: gray;
+    font-size: 15px;
+}
+.social-icon li i:hover,
+.social-icon li i:active {
+    filter: brightness(80%) blur(0.6px);
+}
+
+
+
+
